@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8666189222:AAEH0YRiXYLytyhcqO0J4w3GF7el6i5zBVg"
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # ВНИМАНИЕ: Замените на ваш токен!
 
 def find_and_explain_error(json_text: str) -> str:
     """Находит ошибку и понятно объясняет её"""
