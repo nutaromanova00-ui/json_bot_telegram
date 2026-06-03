@@ -2,10 +2,20 @@ import json
 import logging
 import re
 from typing import Tuple, Optional
-
+from threading import Thread
+from flask import Flask
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
+from flask import Flask
+app = Flask('')
+@app.route('/')
+def home():
+    return "✅ JSON бот работает!"
+
+def run_web():
+    app.run(host='0.0.0.0', port=8080)
+    
 # Настройка логирования
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
