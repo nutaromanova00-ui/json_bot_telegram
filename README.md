@@ -96,7 +96,7 @@
 ```json
 {"name": "John", "age": 30}
 ```
-## ⚙️ Установка и запуск
+## 🛠️ Установка и запуск
 
 1. Установите зависимости:
 pip install -r requirements.txt
@@ -108,3 +108,26 @@ BOT_TOKEN = "ваш_токен"
 
 4. Запустите бота:
 python json_bot.py
+
+## 📌 Деплой на Render (бесплатно, 24/7)
+
+1. Загрузите код на GitHub
+2. Зарегистрируйтесь на Render.com
+3. Создайте Web Service → подключите GitHub
+4. Build Command: pip install -r requirements.txt
+5. Start Command: python json_bot.py
+6. Добавьте переменную: BOT_TOKEN = ваш токен
+
+## ⚙️ Технологии
+
+- Python 3.9+
+- python-telegram-bot 20.7
+- Flask 2.3.3 (для хостинга)
+
+ ## 
+<div align="center">
+  <sub>
+    Сделано с ❤️ для всех, кто работает с JSON<br>
+    ⭐ Поставьте звезду, если проект вам полезен!
+  </sub>
+</div>
