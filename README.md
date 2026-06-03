@@ -4,7 +4,7 @@
 
 **Простой и понятный бот, который не просто показывает ошибку, а объясняет, как её исправить**
 
-[Добавить бота](https://t.me/JSONCheck_theBOT) • [Сообщить о проблеме](https://github.com/nutaromanova00-oi/json_bot_telegram/issues)
+[Добавить бота](https://t.me/JSONCheck_theBOT) • [Сообщить о проблеме](https://github.com/nutaromanova00-ui/json_bot_telegram/issues)
 
 </div>
 
